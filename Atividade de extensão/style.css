@@ -1,0 +1,60 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#inicio {
+    margin-top: 4vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border-radius: 5px;
+    padding-top: 4vh;
+    padding-bottom: 22vh;
+    background-image: url("imagens/pngtree-golden-particles-green-plant-background-green-nature-image_517521.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+}
+
+#inicio > h1 {
+    font-size: 45px;
+    margin-top: 14vh;
+    margin-right: 14vw;
+    float: right;
+}
+
+#inicio > nav {
+    float: right;
+    padding-top: 5vw;
+    margin-right: 17vw;
+}
+
+#inicio > nav > a {
+    font-size: 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#inicio > nav > a:hover {
+    border-bottom: solid rgba(0, 0, 0, 0.849);
+    font-size: 35px;
+    transition: 0.5s;
+
+}
+
+#inicio > a > img {
+    width:400px;
+    height:400px;
+    border-radius: 50%;
+    padding-left: 50px;
+    float: left;
+    position: absolute;
+}
+
+#inicio > a > img:hover {
+    width: 410px;
+    height: 410px;
+    transition: 1s;
+}
+
