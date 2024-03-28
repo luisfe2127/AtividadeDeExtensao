@@ -14,7 +14,6 @@
     padding-bottom: 22vh;
     background-image: url("imagens/pngtree-golden-particles-green-plant-background-green-nature-image_517521.jpg");
     background-repeat: no-repeat;
-    
     background-size: 100%;
     position: absolute;
 }
@@ -93,6 +92,7 @@
 #artigos {
     padding-top: 110vh;
     margin-left: 2vw;
+    margin-right: 1vw;
 }
 
 /* SECTION ARTIGO01 */
@@ -115,7 +115,7 @@
 
 #artigo02 {
     background-color: rgba(0, 0, 0, 0.336);
-    background-image: url("imagens/istockphoto-165694816-612x612.jpg");
+    background-image: url("imagens/Radis-250_Educacao_1.webp");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -125,7 +125,7 @@
 
 #introEducaçao, #problemasEducaçao, #soluçoesEducaçao, #planejamentoEducaçao {
     margin-bottom: 7vh;
-    background-color: rgba(0, 0, 0, 0.301);
+    background-color: rgba(253, 253, 253, 0.877);
 }
 
 /* INTROEDUCAÇAO */
@@ -185,6 +185,10 @@
 
 #planejamentoEducaçao {
     padding: 20px;
+    background-image: url("imagens/Fotoram.io.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center; 
 }
 
 #planejamentoEducaçao > h3 {
@@ -200,6 +204,30 @@
     font-size: 21px;
     letter-spacing: 1px;
 }
+
+/* SECTION ARTIGO03 */
+
+#artigo03 {
+    padding-top: 248vh;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+
+ /* INTROCONSCIENTIZAÇAO */ 
+
+#introConscientizaçao > h1 {
+    font-size: 50px;
+    padding: 20px;
+}
+
+#introConscientizaçao > p {
+    margin-left: 1vw;
+}
+
+
+
+
+
+
 
 
 
