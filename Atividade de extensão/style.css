@@ -108,8 +108,17 @@ h3 {
 
 #artigos {
     padding-top: 110vh;
-    margin-left: 2vw;
-    margin-right: 1vw;
+    margin: 0 1vw 0 2vw;
+}
+
+#artigo01, #artigo02, #artigo03, #artigo04, #artigo05 {
+    background-color: rgba(0, 0, 0, 0.288);  
+}
+
+#introEducaçao, #problemasEducaçao, #soluçoesEducaçao, #planejamentoEducaçao, #introConscientizaçao, #problemasConscientizaçao, #soluçoesConscientizaçao, #planejamentoConscientizaçao, #introAdaptaçao, #problemasAdaptaçao, #soluçoesAdaptaçao, #planejamentoAdaptaçao, #introAlerta, #problemasAlerta, #soluçoesAlerta, #planejamentoAlerta {
+    margin-bottom: 7vh;
+    background-color: rgba(253, 253, 253, 0.877);
+    padding: 20px;
 }
 
 /* SECTION ARTIGO01 */
@@ -127,84 +136,23 @@ h3 {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
-    position: absolute;
     margin-right: 1vw;
-}
-
-#introEducaçao, #problemasEducaçao, #soluçoesEducaçao, #planejamentoEducaçao {
-    margin-bottom: 7vh;
-    background-color: rgba(253, 253, 253, 0.877);
-}
-
-/* INTROEDUCAÇAO */
-
-#introEducaçao {
-    padding: 20px;
-}
-
-/* PROBLEMASEDUCAÇAO */
-
-#problemasEducaçao {
-    padding: 20px;
-}
-
-/* SOLUÇOESEDUCAÇAO */
-
-#soluçoesEducaçao {
-    padding: 20px;
 }
 
 /* PLANEJAMENTOEDUCAÇAO */
 
 #planejamentoEducaçao {
-    padding: 20px;
     background-image: url("imagens/Fotoram.io.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center center; 
 }
 
-#planejamentoEducaçao > ul > p, p {
-    font-size: 21px;
-    letter-spacing: 1px;
-}
-
 /* SECTION ARTIGO03 */
 
-#artigo03 {
-    padding-top: 248vh;
-    background-color: rgba(0, 0, 0, 0.288);
-}
+ /* SECTION ARTIGO04 */
 
- /* INTROCONSCIENTIZAÇAO */ 
-
- #introConscientizaçao {
-    padding-top: 25vh;
- }
-
-#introConscientizaçao > h1 {
-    font-size: 50px;
-    padding: 20px;
-}
-
-#introConscientizaçao > p {
-    margin-left: 1vw;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* SECTION ARTIGO05 */
 
 
 
