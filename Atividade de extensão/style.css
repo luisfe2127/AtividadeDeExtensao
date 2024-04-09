@@ -114,6 +114,7 @@ h3 {
     margin-bottom: 7vh;
     background-color: rgba(253, 253, 253, 0.877);
     padding: 20px;
+    width: 60%;
 }
 
 /* SECTION ARTIGO01 */
@@ -146,11 +147,78 @@ h3 {
     margin-right: 1vw;
 }
 
+#img01Art02 > img {
+    float: right;
+    margin: 3vh 2vw 0 0;
+    width: 460px;
+    height: 710px;
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.521);
+    filter: blur(1.5px);
+    border-radius: 2px;
+    transition: 1s;
+}
+
+#img01Art02 > img:hover {
+    width: 465px;
+    height: 715px;
+    transition: 1s;
+    filter: blur(0);
+}
+
+#img02Art02 > img {
+    width: 460px;
+    height: 600px;
+    float: right;
+    margin: 0 2vw 0 0;
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.521);
+    filter: blur(1.5px);
+    border-radius: 2px;
+    transition: 1s;
+}
+
+#img02Art02 > img:hover {
+    width: 470px;
+    height: 610px;
+    transition: 1s;
+    filter: blur(0);
+}
+
+#img03Art02 > img {
+    width: 460px;
+    height: 600px;
+    position: absolute;
+    top: 360vh;
+    left: 64.5vw;
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.521);
+    filter: blur(1.5px);
+    border-radius: 2px;
+    transition: 1s;
+}
+
+#img03Art02 > img:hover {
+    width: 470px;
+    height: 610px;
+    transition: 1s;
+    filter: blur(0);
+}
+
 /* PLANEJAMENTOEDUCAÇAO */
+
+#soluçoesEducaçao {
+    background-image: url("imagens/pexels-karolina-grabowska-4210787.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 #planejamentoEducaçao {
     background-image: url("imagens/Fotoram.io.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center; 
 }
+
+#problemasEducaçao {
+    background-image: url("imagens/Design\ sem\ nome.jpg");
+    background-size: cover;
+}
+
