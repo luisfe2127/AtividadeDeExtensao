@@ -179,7 +179,6 @@ h3 {
 #img02Art02 > img:hover {
     width: 470px;
     height: 610px;
-    transition: 1s;
     filter: blur(0);
 }
 
@@ -198,8 +197,22 @@ h3 {
 #img03Art02 > img:hover {
     width: 470px;
     height: 610px;
-    transition: 1s;
     filter: blur(0);
+}
+
+#img04Art02 > img {
+    width: 470px;
+    height: 190px;
+    position: absolute;
+    top: 451vh;
+    left: 64.5vw;
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.521);
+    transition: 1s;
+}
+
+#img04Art02 > img:hover {
+    width: 477px;
+    height: 197px;
 }
 
 /* PLANEJAMENTOEDUCAÇAO */
@@ -221,4 +234,47 @@ h3 {
     background-image: url("imagens/Design\ sem\ nome.jpg");
     background-size: cover;
 }
+
+/* SECTION ARTIGO03 */
+
+#artigo03 {
+    background-image: url("imagens/pexels-ahmet-ödemiş-18408631.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#test > p {
+    background-color: white;
+    text-align: center;
+    width: 500px;
+    height: 50px;
+    float: right;
+    margin: 1vh 1.3vw 0 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#test > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#test.expandido > p {
+    height: 900px;
+}
+
+#test.expandido > p.info {
+    display: block;
+}
+
+#test.expandido > img {
+    display: block;
+}
+
+
+
+
+
 
