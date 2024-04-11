@@ -255,25 +255,40 @@ h3 {
     cursor: pointer;
 }
 
-#test > img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
+#test >p:hover {
+    
+    height: 1200px;
 }
 
-#test.expandido > p {
-    height: 900px;
+#testText > p {
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: 64vw;
+    top: 500vh;
+    color: rgba(255, 255, 255, 0);
 }
 
-#test.expandido > p.info {
-    display: block;
+#testText > p:hover {
+    color: black;
 }
 
-#test.expandido > img {
-    display: block;
+/* SECTION ARTIGO04 */
+
+#artigo04 {
+    background-image: url("imagens/pexels-cottonbro-studio-4503265.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
+#soluçoesAdaptaçaoVideo{
+    background-color: rgba(253, 253, 253, 0.877);
+    
+}
 
+#soluçoesAdaptaçaoVideo > iframe {
+    margin: 0 170px 0 0;
+}
 
 
 
