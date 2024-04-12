@@ -283,12 +283,22 @@ h3 {
 
 #soluçoesAdaptaçaoVideo{
     background-color: rgba(253, 253, 253, 0.877);
-    
+    text-align: center;
 }
 
 #soluçoesAdaptaçaoVideo > iframe {
-    margin: 0 170px 0 0;
+    margin-right: 70px;
 }
+
+
+/* SECTION ARTIGO05 */
+
+#artigo05 {
+    background-image: url("imagens/pexels-black-ice-1314544.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 
 
 
