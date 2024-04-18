@@ -1,0 +1,30 @@
+
+
+/*@media (min-width: 414){
+
+    #inicio01 {
+        margin:  1vh 1vw 0 1vw;
+        background-size: 100vw;
+    }
+
+    #inicio01 > h1 {
+        font-size: 16px;
+        margin: 14vh 14vw 0 0;
+        float: right;
+        right: -20px;
+    }
+
+    #inicio01 > nav > a {
+        font-size: 10px;
+        margin-right: 2px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #inicio01 > a > img {
+        width:100px;
+        height:100px;
+        position: absolute;
+        left: -10vw;
+    }
+}*/
