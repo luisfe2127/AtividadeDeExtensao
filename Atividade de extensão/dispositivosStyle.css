@@ -60,14 +60,15 @@
 
     /* SECTION ARTIGO02 */
 
-    #introEducaçao, #problemasEducaçao, #soluçoesEducaçao, #introConscientizaçao, #problemasConscientizaçao, #soluçoesConscientizaçao, #introAdaptaçao, #problemasAdaptaçao, #soluçoesAdaptaçao, #introAlerta, #problemasAlerta, #soluçoesAlerta{
+    #introEducaçao, #problemasEducaçao, #soluçoesEducaçao, #introConscientizaçao, #problemasConscientizaçao, #soluçoesConscientizaçao, #introAdaptaçao, #problemasAdaptaçao, #soluçoesAdaptaçao, #introAlerta, #problemasAlerta, #soluçoesAlerta {
         width: 86vw;
     } 
 
     #img01Art03 > img {
-        width: 190px;
-        height: 1530px;
-        display: none;
+        width: 349px;
+        height: 400px;
+        margin-bottom: 40px;
+        
     }
 
     #img01Art03 > img {
@@ -95,9 +96,14 @@
         width: 350px;
     }
 
-    #introAlerta, #problemasAlerta, #soluçoesAlerta {
-        background-color: rgba(0, 0, 0, 0.13);
+    #artigo04 > img {
+        width: 350px;
+        margin-right: 0px;
     }
+
+   /* #introAlerta, #problemasAlerta, #soluçoesAlerta {
+        
+    }*/
 }
 
 /*@media (min-width: 414){
