@@ -24,12 +24,12 @@
 #inicio01 > nav {
     float: right;
     padding-top: 5vw;
-    margin-right: 17vw;
+    margin-right: 11vw;
 }
 
 #inicio01 > nav > a {
     font-size: 27px;
-    margin-right: 20px;
+    margin-right: 15px;
     text-decoration: none;
     color: black;
 }

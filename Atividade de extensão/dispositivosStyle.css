@@ -29,12 +29,12 @@
     }
 
     #inicio01 > nav > a {
-        font-size: 10px;
+        font-size: 7px;
         margin-right: 1px;
     }
 
     #inicio01 > nav > a:hover {
-        font-size: 20px;
+        font-size: 10px;
     }
 
     /* SECTION INICIO02 */
