@@ -16,6 +16,7 @@
         width: 100px;
         height: 100px;
         margin-left: 10px;
+        margin-top: 3vh;
     }
 
     #inicio01 > a > img:hover {
@@ -58,21 +59,43 @@
         padding-top: 50vh;
     }
 
-    /* SECTION ARTIGO02 */
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 23px;
+    }
+
+    p {
+        font-size: 20px;
+    }
 
     #introEducaçao, #problemasEducaçao, #soluçoesEducaçao, #introConscientizaçao, #problemasConscientizaçao, #soluçoesConscientizaçao, #introAdaptaçao, #problemasAdaptaçao, #soluçoesAdaptaçao, #introAlerta, #problemasAlerta, #soluçoesAlerta {
         width: 86vw;
     } 
 
-    #img01Art03 > img {
-        width: 349px;
-        height: 400px;
-        margin-bottom: 40px;
-        
+    /* SECTION ARTIGO01 */
+
+    #artigo01 > article {
+        width: 86vw;
     }
 
-    #img01Art03 > img {
-        background-image: url("imagensmobile/conscientizaçaoMobile.jpg");
+    /* SECTION ARTIGO02 */
+
+    #planejamentoEducaçao {
+        width: 75vw;
+        margin: 0;
+    }
+
+    /* SECTION ARTIGO04 */
+
+    #introAdaptaçao {
+        width: 98vw;
     }
 
     #maisAdaptaçao {
@@ -82,6 +105,11 @@
     #maisAdaptaçao > h1 {
         font-size: 23px;
         margin-left: 145px;
+    }
+
+    #artigo04 > img {
+       height: 500px;
+       margin-bottom: 35px;
     }
     #maisAdaptaçao > a > img {
         width: 400px;
@@ -94,6 +122,20 @@
 
     #soluçoesAdaptaçaoVideo > iframe {
         width: 350px;
+    }
+
+
+
+
+    #img01Art03 > img {
+        width: 349px;
+        height: 400px;
+        margin-bottom: 40px;
+        
+    }
+
+    #img01Art03 > img {
+        background-image: url("imagensmobile/conscientizaçaoMobile.jpg");
     }
 
     #artigo04 > img {
