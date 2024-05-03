@@ -1,4 +1,6 @@
-@media (min-width: 360px) and (max-width: 414px) {
+/* CELULAR */
+
+@media (min-width: 360px) and (max-width: 527px) {
 
 /* SECTION INICIO01 */
 
@@ -8,8 +10,8 @@
     }
 
     #inicio01 > h1 {
-        font-size: 20px;
-        margin: 39px 13px 0 130px;
+        font-size: 16px;
+        margin: 39px 13px 0 13px;
     }
 
     #inicio01 > a > img {
@@ -76,13 +78,13 @@
     }
 
     #introEducaçao, #problemasEducaçao, #soluçoesEducaçao, #introConscientizaçao, #problemasConscientizaçao, #soluçoesConscientizaçao, #introAdaptaçao, #problemasAdaptaçao, #soluçoesAdaptaçao, #introAlerta, #problemasAlerta, #soluçoesAlerta {
-        width: 86vw;
+        width: 90%;
     } 
 
     /* SECTION ARTIGO01 */
 
     #artigo01 > article {
-        width: 86vw;
+        width: 90%;
     }
 
     /* SECTION ARTIGO02 */
@@ -95,6 +97,152 @@
     /* SECTION ARTIGO04 */
 
     #introAdaptaçao {
+        width: 98vw;
+    }
+
+    #maisAdaptaçao {
+        margin: 30px 90px 50px 0;
+    }
+        
+    #maisAdaptaçao > h1 {
+        font-size: 23px;
+        margin-left: 145px;
+    }
+
+    #artigo04 > img {
+       height: 500px;
+       margin-bottom: 35px;
+    }
+    #maisAdaptaçao > a > img {
+        width: 400px;
+        margin-left: 105px;
+    }
+
+    #maisAdaptaçao > a > img:hover {
+        width: 410px;
+    }
+
+    #soluçoesAdaptaçaoVideo > iframe {
+        width: 350px;
+    }
+
+    #img01Art03 > img {
+        width: 96vw;
+        height: 400px;
+        margin-bottom: 40px;
+        margin-right: 11px;
+    }
+
+    #img01Art03 > img {
+        background-image: url("imagensmobile/conscientizaçaoMobile.jpg");
+    }
+
+    #artigo04 > img {
+        width: 96vw;
+        margin-right: 11px;
+    }
+
+}
+
+/* TABLET */ 
+
+/*@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* SECTION INICIO01 */
+
+   /* #inicio01 {
+        width: 98vw;
+        height: 5vh;
+    }
+
+    #inicio01 > h1 {
+        font-size: 10px;
+        margin: 100px 13px 0 0;
+    }
+
+    #inicio01 > a > img {
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+        margin-top: 3vh;
+    }
+
+    #inicio01 > a > img:hover {
+        width: 105px;
+        height: 105px;
+        margin-left: 10px;
+    }
+
+    #inicio01 > nav {
+        margin: 0 30px 0 0;
+    }
+
+    #inicio01 > nav > a {
+        font-size: 7px;
+        margin-right: 1px;
+    }
+
+    #inicio01 > nav > a:hover {
+        font-size: 10px;
+    }
+
+    /* SECTION INICIO02 */
+
+   /* #inicio02 > video {
+        top: -1vh;
+        height: 70px;
+        width: 98vw;
+    }
+
+    #inicio02 > h1 {
+        font-size: 17px;
+        top: 37vh;
+        left: 8%;
+    }
+
+    /* SECTION ARTIGOS & CONFIGURAÇOES GERAIS */
+
+   /* #artigos {
+        width: 98vw;
+        padding-top: 50vh;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 23px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    #introEducaçao, #problemasEducaçao, #soluçoesEducaçao, #introConscientizaçao, #problemasConscientizaçao, #soluçoesConscientizaçao, #introAdaptaçao, #problemasAdaptaçao, #soluçoesAdaptaçao, #introAlerta, #problemasAlerta, #soluçoesAlerta {
+        width: 90%;
+    } 
+
+    /* SECTION ARTIGO01 */
+
+   /* #artigo01 > article {
+        width: 90%;
+    }
+
+    /* SECTION ARTIGO02 */
+
+   /* #planejamentoEducaçao {
+        width: 75vw;
+        margin: 0;
+    }
+
+    /* SECTION ARTIGO04 */
+
+   /* #introAdaptaçao {
         width: 98vw;
     }
 
@@ -124,9 +272,6 @@
         width: 350px;
     }
 
-
-
-
     #img01Art03 > img {
         width: 349px;
         height: 400px;
@@ -142,37 +287,6 @@
         width: 350px;
         margin-right: 0px;
     }
-
-   /* #introAlerta, #problemasAlerta, #soluçoesAlerta {
-        
-    }*/
 }
 
-/*@media (min-width: 414){
-
-    #inicio01 {
-        margin:  1vh 1vw 0 1vw;
-        background-size: 100vw;
-    }
-
-    #inicio01 > h1 {
-        font-size: 16px;
-        margin: 14vh 14vw 0 0;
-        float: right;
-        right: -20px;
-    }
-
-    #inicio01 > nav > a {
-        font-size: 10px;
-        margin-right: 2px;
-        text-decoration: none;
-        color: black;
-    }
-
-    #inicio01 > a > img {
-        width:100px;
-        height:100px;
-        position: absolute;
-        left: -10vw;
-    }
-}*/
+    
