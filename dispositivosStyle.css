@@ -1,6 +1,6 @@
 /* CELULAR */
 
-@media (min-width: 360px) and (max-width: 527px) {
+@media (min-width: 360px) and (max-width: 768px) {
 
 /* SECTION INICIO01 */
 
@@ -10,14 +10,14 @@
     }
 
     #inicio01 > h1 {
-        font-size: 16px;
-        margin: 39px 13px 0 13px;
+        font-size: 12px;
+        margin: 39px 16px 0 13px;
     }
 
     #inicio01 > a > img {
         width: 100px;
         height: 100px;
-        margin-left: 10px;
+        margin-left: 20px;
         margin-top: 3vh;
     }
 
@@ -28,7 +28,7 @@
     }
 
     #inicio01 > nav {
-        margin: 0 30px 0 0;
+        margin: 0 20px 0 110px;
     }
 
     #inicio01 > nav > a {
@@ -51,7 +51,7 @@
     #inicio02 > h1 {
         font-size: 17px;
         top: 37vh;
-        left: 8%;
+        left: 10%;
     }
 
     /* SECTION ARTIGOS & CONFIGURAÇOES GERAIS */
@@ -81,6 +81,10 @@
         width: 90%;
     } 
 
+    #introEducaçao, #introConscientizaçao, #introAdaptaçao, #introAlerta {
+        width: 95%;
+    }
+
     /* SECTION ARTIGO01 */
 
     #artigo01 > article {
@@ -101,7 +105,7 @@
     }
 
     #maisAdaptaçao {
-        margin: 30px 90px 50px 0;
+        margin: 50px 230px 30px 0;
     }
         
     #maisAdaptaçao > h1 {
@@ -127,166 +131,140 @@
     }
 
     #img01Art03 > img {
-        width: 96vw;
+        width: 93vw;
         height: 400px;
         margin-bottom: 40px;
-        margin-right: 11px;
-    }
-
-    #img01Art03 > img {
-        background-image: url("imagensmobile/conscientizaçaoMobile.jpg");
+        margin-right: 35px;
     }
 
     #artigo04 > img {
-        width: 96vw;
-        margin-right: 11px;
+        width: 93vw;
+        margin-right: 35px;
     }
 
 }
 
 /* TABLET */ 
 
-/*@media (min-width: 768px) and (max-width: 1024px) {
-
-    /* SECTION INICIO01 */
-
-   /* #inicio01 {
-        width: 98vw;
-        height: 5vh;
-    }
+@media (min-width: 768px) and (max-width: 1024px) {
 
     #inicio01 > h1 {
-        font-size: 10px;
-        margin: 100px 13px 0 0;
-    }
-
-    #inicio01 > a > img {
-        width: 100px;
-        height: 100px;
-        margin-left: 10px;
-        margin-top: 3vh;
-    }
-
-    #inicio01 > a > img:hover {
-        width: 105px;
-        height: 105px;
-        margin-left: 10px;
+        font-size: 16px;
+        margin: 39px 250px 0 13px;
     }
 
     #inicio01 > nav {
-        margin: 0 30px 0 0;
-    }
-
-    #inicio01 > nav > a {
-        font-size: 7px;
-        margin-right: 1px;
-    }
-
-    #inicio01 > nav > a:hover {
-        font-size: 10px;
-    }
-
-    /* SECTION INICIO02 */
-
-   /* #inicio02 > video {
-        top: -1vh;
-        height: 70px;
-        width: 98vw;
+        margin: 0 290px 0 0;
     }
 
     #inicio02 > h1 {
         font-size: 17px;
         top: 37vh;
-        left: 8%;
+        left: 30%;
     }
 
-    /* SECTION ARTIGOS & CONFIGURAÇOES GERAIS */
+    #inicio01 > a > img {
+        width: 100px;
+        height: 100px;
+        margin-left: 40px;
+        margin-top: 3vh;
+    }
+    
+}
 
-   /* #artigos {
-        width: 98vw;
-        padding-top: 50vh;
+/* DASKTOP */
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+
+    #inicio01 > h1 {
+        font-size: 26px;
+        margin: 39px 250px 0 13px;
     }
 
-    h1 {
-        font-size: 30px;
+    #inicio01 > nav {
+        margin: 0 225px 0 0;
     }
 
-    h2 {
-        font-size: 25px;
+    #inicio01 > nav > a {
+        font-size: 16px;
     }
 
-    h3 {
-        font-size: 23px;
-    }
-
-    p {
+    #inicio01 > nav > a:hover {
         font-size: 20px;
     }
 
-    #introEducaçao, #problemasEducaçao, #soluçoesEducaçao, #introConscientizaçao, #problemasConscientizaçao, #soluçoesConscientizaçao, #introAdaptaçao, #problemasAdaptaçao, #soluçoesAdaptaçao, #introAlerta, #problemasAlerta, #soluçoesAlerta {
-        width: 90%;
-    } 
-
-    /* SECTION ARTIGO01 */
-
-   /* #artigo01 > article {
-        width: 90%;
+    #inicio02 > video {
+       top: -13vh;
+       width: 98vw;
+       height: 20vh;
     }
 
-    /* SECTION ARTIGO02 */
-
-   /* #planejamentoEducaçao {
-        width: 75vw;
-        margin: 0;
+    #inicio02 > h1 {
+        font-size: 26px;
+        top: 61vh;
+        left: 27%;
     }
 
-    /* SECTION ARTIGO04 */
+    #artigos {
+        padding-top: 80vh;
+    }
 
-   /* #introAdaptaçao {
-        width: 98vw;
+    #inicio01 > a > img {
+        width: 180px;
+        height: 180px;
+        margin-left: 50px;
+        margin-top: 3vh;
+    }
+
+    #inicio01 > a > img:hover {
+        width: 185px;
+        height: 185px;
+    }
+
+    #artigo04 > img {
+        width: 33vw;
+        height: 120vh;
+        margin-right: 10px;
+    }
+
+    #img01Art03 > img {
+        width: 33vw;
+        height: 195vh;
     }
 
     #maisAdaptaçao {
-        margin: 30px 0 50px 0;
-    }
-        
-    #maisAdaptaçao > h1 {
-        font-size: 23px;
-        margin-left: 145px;
+        width: 407px;
+        margin: 50px -5px 0 0;
     }
 
-    #artigo04 > img {
-       height: 500px;
-       margin-bottom: 35px;
+    #maisAdaptaçao > h1 {
+        font-size: 23px;
     }
+
     #maisAdaptaçao > a > img {
-        width: 400px;
-        margin-left: 105px;
+        width: 30vw;
+        height: 50vh;
+    }
+
+    #maisAdaptaçao > h1 {
+        width: 220px;
+        margin-left: 100px;
     }
 
     #maisAdaptaçao > a > img:hover {
-        width: 410px;
+        width: 31vw;
+        height: 51vh;
     }
 
-    #soluçoesAdaptaçaoVideo > iframe {
-        width: 350px;
+    #problemasAlerta {
+        width: 450px;
+        height: 1280px;
     }
 
-    #img01Art03 > img {
-        width: 349px;
-        height: 400px;
-        margin-bottom: 40px;
-        
+    #soluçoesAlerta {
+        width: 450px;
     }
 
-    #img01Art03 > img {
-        background-image: url("imagensmobile/conscientizaçaoMobile.jpg");
-    }
-
-    #artigo04 > img {
-        width: 350px;
-        margin-right: 0px;
-    }
 }
 
     
