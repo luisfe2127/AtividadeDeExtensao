@@ -105,16 +105,16 @@
     }
 
     #maisAdaptaçao {
-        margin: 50px 230px 30px 0;
+        margin: 50px 5px 30px 0;
     }
         
     #maisAdaptaçao > h1 {
-        font-size: 23px;
+        font-size: 17px;
         margin-left: 145px;
     }
 
     #artigo04 > img {
-       height: 500px;
+       height: 400px;
        margin-bottom: 35px;
     }
     #maisAdaptaçao > a > img {
@@ -134,12 +134,12 @@
         width: 93vw;
         height: 400px;
         margin-bottom: 40px;
-        margin-right: 35px;
+        margin-right: 8px;
     }
 
     #artigo04 > img {
         width: 93vw;
-        margin-right: 35px;
+        margin-right: 8px;
     }
 
 }
@@ -267,4 +267,390 @@
 
 }
 
+@media (min-width: 1336px) and (max-width: 1920px) {
     
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    /* SECTION INICIO01 */
+    
+    #inicio01 {
+        margin:  1vh 1vw 0 1vw;
+        border-radius: 5px;
+        padding: 4vh 0 22vh 0;
+        background-image: url("imagens/pngtree-golden-particles-green-plant-background-green-nature-image_517521.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: absolute;
+        margin-right: 2vw;
+    }
+    
+    #inicio01 > h1 {
+        font-size: 40px;
+        margin: 14vh 14vw 0 0;
+        float: right;
+    }
+    
+    #inicio01 > nav {
+        float: right;
+        padding-top: 5vw;
+        margin-right: 11vw;
+    }
+    
+    #inicio01 > nav > a {
+        font-size: 27px;
+        margin-right: 15px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    #inicio01 > nav > a:hover {
+        border-bottom: solid rgba(0, 0, 0, 0.849);
+        font-size: 30px;
+        transition: 0.5s;
+    }
+    
+    #inicio01 > a > img {
+        width:300px;
+        height:300px;
+        border-radius: 100%;
+        margin-left: 50px;
+        float: left;
+        position: absolute;
+        filter: blur(1.5px);
+        transition: 1s;
+    }
+    
+    #inicio01 > a > img:hover {
+        width: 310px;
+        height: 310px;
+        transition: 1s;
+        filter: blur(0);
+    }
+    
+    /* SECTION INICIO02 */
+    
+    #inicio02 > video {
+        width: 97vw;
+        object-fit: fill;
+        height: 210px;
+        padding: 80vh 0 0 1vw;
+        border-radius: 5px;
+        position: absolute;
+    }
+    
+    #inicio02 > h1 {
+        position: absolute;
+        top: 78vh; 
+        left: 18%; 
+        color: white; 
+        z-index: 1; 
+        font-size: 50px;
+        font-family: "Freehand", cursive;
+        font-weight: 400;
+        font-style: normal;
+        text-shadow: 10px 10px 10px black; 
+    }
+    
+    /* SECTION ARTIGOS & CONFIGURAÇOES GERAIS */
+    
+    h1 {
+        font-size: 47px;
+    }
+    
+    p {
+        font-size: 21px;
+        letter-spacing: 1px;
+    }
+    
+    h2 {
+        font-size: 44px;
+    }
+    
+    h3 {
+        font-size: 27px;
+    }
+    
+    #artigos {
+        padding-top: 104vh;
+        margin: 0 1vw 0 1vw;
+    }
+    
+    #artigo02, #artigo03, #artigo04 {
+        background-color: rgba(0, 0, 0, 0.288);  
+    }
+    
+    #introEducaçao, #problemasEducaçao, #soluçoesEducaçao, #planejamentoEducaçao,#soluçoesConscientizaçao, #planejamentoConscientizaçao, #problemasAdaptaçao, #soluçoesAdaptaçao, #planejamentoAdaptaçao {
+        margin-bottom: 7vh;
+        background-color: rgba(253, 253, 253, 0.877);
+        padding: 20px;
+        width: 60%;
+    }
+    
+    /* SECTION ARTIGO01 */
+    
+    #artigo01 {
+        background-image: url("imagens/pexels-madison-inouye-1405773.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    
+    #artigo01 > h1 {
+        padding: 2vw;
+    }
+    
+    #artigo01 > article {
+        width: 60%;
+        margin-bottom: 7vh;
+        padding: 0 2vw;
+    }
+    
+    /* SECTION ARTIGO02 */
+    
+    #artigo02 {
+        background-color: rgba(0, 0, 0, 0.336);
+        background-image: url("imagens/Radis-250_Educacao_1.webp");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 1vw;
+    }
+    
+    #planejamentoEducaçao{
+        text-align: center;
+        margin-left: 10vw;
+    }
+    
+    #artigo02 > h2 {
+        text-align: center;
+        margin-left: 10vw;
+    }
+    
+    #img01Art02 > img {
+        float: right;
+        margin: 3vh 2vw 0 0;
+        width: 460px;
+        height: 710px;
+        box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.521);
+        filter: blur(1.5px);
+        border-radius: 2px;
+        transition: 1s;
+    }
+    
+    #img01Art02 > img:hover {
+        width: 465px;
+        height: 715px;
+        transition: 1s;
+        filter: blur(0);
+    }
+    
+    #img02Art02 > img {
+        width: 460px;
+        height: 600px;
+        float: right;
+        margin: 0 2vw 0 0;
+        box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.521);
+        filter: blur(1.5px);
+        border-radius: 2px;
+        transition: 1s;
+    }
+    
+    #img02Art02 > img:hover {
+        width: 470px;
+        height: 610px;
+        filter: blur(0);
+    }
+    
+    #img03Art02 > img {
+        width: 460px;
+        height: 600px;
+        position: absolute;
+        top: 360vh;
+        left: 64.5vw;
+        box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.521);
+        filter: blur(1.5px);
+        border-radius: 2px;
+        transition: 1s;
+    }
+    
+    #img03Art02 > img:hover {
+        width: 470px;
+        height: 610px;
+        filter: blur(0);
+    }
+    
+    #img04Art02 > img {
+        width: 470px;
+        height: 190px;
+        position: absolute;
+        top: 451vh;
+        left: 64.5vw;
+        box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.521);
+        transition: 1s;
+    }
+    
+    #img04Art02 > img:hover {
+        width: 477px;
+        height: 197px;
+    }
+    
+    /* PLANEJAMENTOEDUCAÇAO */
+    
+    #soluçoesEducaçao {
+        background-image: url("imagens/pexels-karolina-grabowska-4210787.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    
+    #planejamentoEducaçao {
+        background-image: url("imagens/Fotoram.io.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #problemasEducaçao {
+        background-image: url("imagens/Design\ sem\ nome.jpg");
+        background-size: cover;
+    }
+    
+    /* SECTION ARTIGO03 */
+    
+    #artigo03 {
+        background-image: url("imagens/pexels-ahmet-ödemiş-18408631.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        margin-right: 0.5vw;
+    }
+    
+    #introConscientizaçao {
+        background-color: white;
+        width: 98%;
+        text-align: center;
+        padding: 20px;
+        
+    }
+    
+    #problemasConscientizaçao {
+        background-color: rgba(253, 253, 253, 0.877);
+        padding: 20px;
+        width: 60%;
+    }
+    
+    #img01Art03 > img {
+        float: right;
+        width: 460px;
+        height: 890px;
+        margin-right: 1vw;
+    }
+    
+    /* SECTION ARTIGO04 */
+    
+    #artigo04 {
+        background-image: url("imagens/pexels-cottonbro-studio-4503265.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        margin-bottom: 40px;
+        margin-right: 0.5vw;
+    }
+    
+    #introAdaptaçao {
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.623);
+    }
+    
+    #artigo04 > img {
+        width: 440px;
+        height: 538px;
+        margin-right: 20px;
+        float: right;
+    }
+    
+    #maisAdaptaçao {
+        width: 500px;
+        float: right;
+        text-align: center;
+        margin: 140px 0px 0 0;
+    }
+    
+    #maisAdaptaçao > h1 {
+        margin-bottom: 50px;
+    }
+    
+    #maisAdaptaçao > a > img {
+        width: 500px;
+        height: 300px;
+        border-radius: 100px;
+        transition: 1s;
+    }
+    
+    #maisAdaptaçao > a > img:hover {
+        background-color: rgba(255, 255, 255, 0.26);
+        width: 505px;
+        height: 305px;
+        border-radius: 100%;
+    }
+    
+    #soluçoesAdaptaçaoVideo{
+        background-color: rgba(253, 253, 253, 0.877);
+        text-align: center;
+    }
+    
+    #soluçoesAdaptaçaoVideo > iframe {
+        margin-right: 70px;
+    }
+    
+    
+    /* SECTION ARTIGO05 */
+    
+    #artigo05 {
+        background-color: white;
+        background-image: url("imagens/pexels-black-ice-1314544.jpg");
+        background-attachment: fixed;
+        margin-right: 0.5vw;
+    }
+    
+    #problemasAlerta, #soluçoesAlerta {
+        background-color: white;
+        width: 50%;
+        padding: 20px;
+    }
+    
+    #introAlerta {
+        padding: 20px;
+        background-color: white;
+        margin-bottom: 5px;
+    }
+    
+    #introAlerta > p {
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    #problemasAlerta > p, #soluçoesAlerta > p {
+        font-size: 23px;
+        text-align: center;
+    }
+    
+    #introAlerta > h1, #problemasAlerta > h2, #problemasAlerta > h3 , #soluçoesAlerta > h2, #soluçoesAlerta > h3 {
+        text-align: center;
+    }
+    
+    #problemasAlerta {
+        background-color: white;
+        width: 600px;
+        height: 1046px;
+    }
+    
+    #soluçoesAlerta {
+        float: right;
+        background-color: white;
+        margin-top: 20px;
+        width: 600px;
+        margin-right: 0.5vw;
+    }
+}
