@@ -1,6 +1,6 @@
 /* CELULAR */
 
-@media (min-width: 360px) and (max-width: 768px) {
+@media (min-width: 360px) and (max-width: 564px) {
 
 /* SECTION INICIO01 */
 
@@ -142,6 +142,30 @@
         margin-right: 8px;
     }
 
+}
+
+@media (min-width: 564px) and (max-width: 768px) {
+    #inicio01 > h1 {
+        margin-right: 150px;
+    }
+
+    #inicio01 > nav  {
+        margin-right: 155px;
+    }
+
+    #img01Art03 > img, #artigo04 > img {
+        width: 95.5vw;
+        margin-right: 14px;
+    }
+
+    #maisAdaptaçao {
+        margin-right: 100px;
+    }
+
+    #soluçoesAlerta {
+        margin-bottom: 20px;
+    }
+    
 }
 
 /* TABLET */ 
