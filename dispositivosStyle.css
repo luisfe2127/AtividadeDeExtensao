@@ -168,7 +168,7 @@
     
 }
 
-@media (min-width: 565px) and (max-width: 768px) {
+@media (min-width: 565px) and (max-width: 761px) {
 
     #inicio01 {
         height: 20vh;
@@ -191,7 +191,6 @@
     #inicio01 > nav {
         margin-right: -1px;
     }
-
 
     #inicio01 > a > img {
         width: 100px;
@@ -218,6 +217,10 @@
 
     #artigos {
         padding-top: 70vh;
+    }
+
+    #introConscientizaçao {
+        width: 94vw;
     }
 
     #img01Art03 > img, #artigo04 > img {
@@ -247,7 +250,124 @@
         height: 210px;
     }
 
-   
+    #soluçoesAdaptaçaoVideo > iframe {
+        width: 500px;
+    }
+
+   #problemasAlerta {
+    width: 90vw;
+   }
+
+   #soluçoesAlerta {
+    width: 90vw;
+   }
+
+}
+
+@media (min-width: 761px) and (max-width: 762px) {
+    #inicio01 > h1 {
+        margin-right: 160px;
+    }
+
+    #inicio01 > nav {
+        margin-right: 140px;
+    }
+
+    #img01Art03 > img, #artigo04 > img {
+        width: 487px;
+        margin-right: 258px;
+    }
+
+    #maisAdaptaçao {
+        margin-right: 250px;
+    }
+
+    #artigo05 {
+        height: 100vh;
+    }
+
+    #problemasAlerta {
+        width: 94vw;
+    }
+
+    #soluçoesAlerta {
+        width: 90vw;
+        height: 160vh;
+    }
+}
+
+@media (min-width: 761px) and (max-width: 768px) {
+
+    #inicio01 {
+        height: 20vh;
+    }
+
+    #inicio01 > h1 {
+        font-size: 20px;
+        margin-right: 140px;
+    }
+
+    #inicio01 > nav > a {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+
+    #inicio01 > nav > a:hover {
+        font-size: 17px;
+    }
+
+    #inicio01 > nav {
+        margin-right: 120px;
+    }
+
+    #inicio01 > a > img {
+        width: 140px;
+        height: 140px;
+        top: 14vh;
+        margin-left: 60px;
+    }
+
+    #inicio01 > a > img:hover {
+        width: 145px;
+        height: 145px;
+    }
+
+    #inicio02 > video {
+        width: 98vw;
+        height: 15vh;
+        padding-top: 48vh;
+    }
+
+    #inicio02 > h1 {
+        font-size: 20px;
+        top: 52vh;
+    }
+
+    #artigos {
+        padding-top: 70vh;
+    }
+
+    #img01Art03 > img, #artigo04 > img {
+        height: 600px;
+        margin-bottom: 40px;
+    }
+
+    #maisAdaptaçao > h1 {
+        font-size: 30px;
+    }
+
+    #maisAdaptaçao {
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+    #maisAdaptaçao > a > img {
+        width: 400px;
+    }
+
+    #maisAdaptaçao > a > img:hover {
+        width: 410px;
+    }
 
 }
 
