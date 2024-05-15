@@ -373,30 +373,149 @@
 
 /* TABLET */ 
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 997px) {
+
+    #inicio01 {
+        height: 20vh;
+    }
 
     #inicio01 > h1 {
-        font-size: 16px;
-        margin: 39px 250px 0 13px;
+        font-size: 20px;
+        margin-right: 140px;
+    }
+
+    #inicio01 > nav > a {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+
+    #inicio01 > nav > a:hover {
+        font-size: 17px;
     }
 
     #inicio01 > nav {
-        margin: 0 290px 0 0;
-    }
-
-    #inicio02 > h1 {
-        font-size: 17px;
-        top: 37vh;
-        left: 30%;
+        margin-right: 120px;
     }
 
     #inicio01 > a > img {
-        width: 100px;
-        height: 100px;
-        margin-left: 40px;
-        margin-top: 3vh;
+        width: 140px;
+        height: 140px;
+        top: 14vh;
+        margin-left: 60px;
     }
-    
+
+    #inicio01 > a > img:hover {
+        width: 145px;
+        height: 145px;
+    }
+
+    #inicio02 > video {
+        width: 98vw;
+        height: 15vh;
+        padding-top: 48vh;
+    }
+
+    #inicio02 > h1 {
+        font-size: 20px;
+        top: 52vh;
+    }
+
+    #artigos {
+        padding-top: 70vh;
+    }
+
+    #img01Art03 > img, #artigo04 > img {
+        height: 600px;
+        margin-bottom: 40px;
+    }
+
+    #maisAdaptaçao > h1 {
+        font-size: 30px;
+    }
+
+    #maisAdaptaçao {
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+    #maisAdaptaçao > a > img {
+        width: 400px;
+    }
+
+    #maisAdaptaçao > a > img:hover {
+        width: 410px;
+    }
+
+    #img01Art03 > img, #artigo04 > img {
+        width: 490px;
+        margin-right: 260px;
+    }
+
+    #maisAdaptaçao {
+        margin-right: 257px;
+    }
+
+    #artigo05 {
+        height: 100vh;
+    }
+
+    #artigo05 {
+        height: 100vh;
+    }
+
+    #problemasAlerta {
+        width: 94vw;
+    }
+
+    #soluçoesAlerta {
+        width: 90vw;
+        height: 160vh;
+    }
+
+}
+
+@media (min-width: 997px) and (max-width: 1024px) {
+
+    #inicio01 > h1 {
+        font-size: 26px;
+        margin-right: 200px;
+    }
+
+    #inicio01 > nav {
+        margin-right: 220px;
+    }
+
+    #img01Art03 > img {
+        margin-right: 5px;
+        width: 340px;
+        height: 1080px;
+    }
+
+    #artigo04 > img {
+        margin-right: 5px;
+        width: 340px;
+        height: 665px;
+    }
+
+    #maisAdaptaçao {
+        margin-right: 190px;
+        margin-top: 190px;
+        width: 200px;
+    }
+
+    #maisAdaptaçao > h1 {
+        font-size: 20px;
+        margin-left: 100px;
+        width: 200px;
+    }
+
+    #maisAdaptaçao > img:hover {
+        width: 100px;
+    }
+
+    #soluçoesAlerta {
+        height: 110vh;
+    }
 }
 
 /* DASKTOP */
