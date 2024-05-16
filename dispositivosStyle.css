@@ -524,11 +524,11 @@
 
     #inicio01 > h1 {
         font-size: 26px;
-        margin: 39px 250px 0 13px;
+        margin: 47px 230px 0 0;
     }
 
     #inicio01 > nav {
-        margin: 0 225px 0 0;
+        margin: 0 200px 0 0;
     }
 
     #inicio01 > nav > a {
@@ -540,14 +540,14 @@
     }
 
     #inicio02 > video {
-       top: -13vh;
+       top: -18vh;
        width: 98vw;
        height: 20vh;
     }
 
     #inicio02 > h1 {
         font-size: 26px;
-        top: 61vh;
+        top: 56vh;
         left: 27%;
     }
 
@@ -569,18 +569,17 @@
 
     #artigo04 > img {
         width: 33vw;
-        height: 120vh;
+        height: 92vh;
         margin-right: 10px;
     }
-
     #img01Art03 > img {
         width: 33vw;
-        height: 195vh;
+        height: 150vh;
     }
 
     #maisAdaptaçao {
         width: 407px;
-        margin: 50px -5px 0 0;
+        margin: 250px -5px 0 0;
     }
 
     #maisAdaptaçao > h1 {
@@ -609,6 +608,7 @@
 
     #soluçoesAlerta {
         width: 450px;
+        height: 1280px;
     }
 
 }
