@@ -5,16 +5,29 @@
     padding: 0;
     margin: 0;
 }
+/* ---------- SECTION INICIO ---------- */
 
 #inicio02-02 {
     width: 65vw;
     float: right;
-    margin: 1vw;
+    margin: 1vw 1vw 9vh 1vw;
     letter-spacing: 1px;
     font-size: 25px;
 }
 
 #inicio02-02 > h1 {
-    font-family: "Playfair Display", serif; 
+    font-family: Arial, Helvetica, sans-serif
 }
 
+#inicio01-02 > nav {
+    float: right; 
+    margin-right: 17vw; 
+}
+
+#inicio01-02 > nav > a {
+    font-size: 18px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black; 
+    letter-spacing: 0.6px;
+}
