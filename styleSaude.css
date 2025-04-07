@@ -31,3 +31,10 @@
     color: black; 
     letter-spacing: 0.6px;
 }
+
+img {
+    width: 400px;
+    height: 605px;
+    background-attachment: fixed;
+    
+}
