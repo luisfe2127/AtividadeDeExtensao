@@ -10,7 +10,7 @@
 #inicio02-02 {
     width: 65vw;
     float: right;
-    margin: 1vw 1vw 9vh 1vw;
+    margin: 1vw 1vw 6vh 1vw;
     letter-spacing: 1px;
     font-size: 25px;
 }
@@ -21,7 +21,8 @@
 
 #inicio01-02 > nav {
     float: right; 
-    margin-right: 17vw; 
+    margin-right: 17vw;
+    margin-bottom: 35px; 
 }
 
 #inicio01-02 > nav > a {
@@ -32,9 +33,14 @@
     letter-spacing: 0.6px;
 }
 
-img {
-    width: 400px;
-    height: 605px;
-    background-attachment: fixed;
-    
+#img0102 {
+    width: 31vw;
+    height: 100vh;
 }
+
+#img0202 {
+    float: right;
+    width: 67vw;
+    height: 60vh;
+}
+
