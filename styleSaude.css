@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
 }
-/* ---------- SECTION INICIO ---------- */
+/*---------- SECTION INICIO ----------*/
 
 #inicio02-02 {
     width: 65vw;
@@ -42,5 +42,11 @@
     float: right;
     width: 67vw;
     height: 60vh;
+}
+
+/*---------- SECTION ARTIGOS ----------*/
+
+#artigo01-02 > h1 {
+    font-size: 40px;
 }
 
