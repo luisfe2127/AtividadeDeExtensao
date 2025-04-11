@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
 }
+
 /*---------- SECTION INICIO ----------*/
 
 #inicio02-02 {
@@ -46,7 +47,24 @@
 
 /*---------- SECTION ARTIGOS ----------*/
 
-#artigo01-02 > h1 {
-    font-size: 40px;
+#artigo01-02 {
+ margin: 0 2vw 5vh 2vw;
 }
+
+#artigo01-02 > h1 {
+    font-size: 65px;
+    margin-bottom: 2vh;
+}
+
+#artigo01-02 > p {
+    font-size: 21px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+address {
+    margin-left: 13vw;
+}
+
+
 
