@@ -45,10 +45,15 @@
     height: 60vh;
 }
 
+#address01 {
+    margin-left: 13vw;
+}
+
 /*---------- SECTION ARTIGOS ----------*/
 
 #artigo01-02 {
- margin: 0 2vw 5vh 2vw;
+    margin: 0 0 5vh 2vw;
+    width: 58vw;
 }
 
 #artigo01-02 > h1 {
@@ -62,9 +67,18 @@
     line-height: 25px;
 }
 
-address {
-    margin-left: 13vw;
+#artigos > img {
+    width: 30vw;
+    height: 100vh;
+    margin-right: 6vw;
+    float: right;
 }
+
+#address02 {
+    float: right;
+    margin-right: 15vw;
+}
+
 
 
 
