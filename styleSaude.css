@@ -51,20 +51,21 @@
 
 /*---------- SECTION ARTIGOS ----------*/
 
-#artigo01-02 {
+#artigos > section {
     margin: 0 0 5vh 2vw;
     width: 58vw;
 }
 
-#artigo01-02 > h1 {
+#artigos > section > h1 {
     font-size: 65px;
     margin-bottom: 2vh;
 }
 
-#artigo01-02 > p {
+#artigos > section > p {
     font-size: 21px;
     letter-spacing: 1px;
     line-height: 25px;
+    margin-bottom: 10px;
 }
 
 #artigos > img {
