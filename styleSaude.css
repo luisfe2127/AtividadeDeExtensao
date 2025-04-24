@@ -51,7 +51,7 @@
 
 /*---------- SECTION ARTIGOS ----------*/
 
-#artigos > section {
+#artigos > #artigo01-02, #artigo02-02 {
     margin: 0 0 5vh 2vw;
     width: 58vw;
 }
@@ -81,5 +81,10 @@
 }
 
 
+
+#artigo02-02 > img {
+    width: 500px;
+    float: right;
+}
 
 
