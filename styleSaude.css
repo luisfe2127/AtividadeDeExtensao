@@ -8,6 +8,8 @@
 
 /*---------- SECTION INICIO ----------*/
 
+/* CONFIGURACOES SECTION INICIO02-02 */
+
 #inicio02-02 {
     width: 65vw;
     float: right;
@@ -19,6 +21,8 @@
 #inicio02-02 > h1 {
     font-family: Arial, Helvetica, sans-serif
 }
+
+/* CONFIGURACOES NA SECTION INICIO01-02 (ABA DE NAVEGACAO) */
 
 #inicio01-02 > nav {
     float: right; 
@@ -33,6 +37,8 @@
     color: black; 
     letter-spacing: 0.6px;
 }
+
+/* CONFIGURACOES DE IMAGENS (HOME) */
 
 #img0102 {
     width: 31vw;
@@ -51,15 +57,22 @@
 
 /*---------- SECTION ARTIGOS ----------*/
 
-#artigos > #artigo01-02, #artigo02-02 {
+/* CONFIGURACOES GERAIS */
+
+#artigos {
+    flex: auto;
+}
+
+#artigos > section {
     margin: 0 0 5vh 2vw;
-    width: 58vw;
+    width: 58vw;   
 }
 
 #artigos > section > h1 {
     font-size: 65px;
     margin-bottom: 2vh;
 }
+
 
 #artigos > section > p {
     font-size: 21px;
@@ -68,23 +81,31 @@
     margin-bottom: 10px;
 }
 
-#artigos > img {
-    width: 30vw;
-    height: 100vh;
-    margin-right: 6vw;
-    float: right;
-}
+/* -------------------------------------- */
 
 #address02 {
     float: right;
     margin-right: 15vw;
 }
 
+/* CONFIGURACOES DE IMAGENS DO ARTIGO */
 
+#artigos > img {
+    width: 30vw;
+    height: 95vh;
+    margin-right: 6vw;
+    float: right;
+}
 
 #artigo02-02 > img {
     width: 500px;
     float: right;
+    position: absolute;
+    flex: auto;
+    left: 68.8vw;
 }
+
+
+
 
 
