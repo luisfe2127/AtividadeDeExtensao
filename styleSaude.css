@@ -73,12 +73,26 @@
     margin-bottom: 2vh;
 }
 
+#artigos > section > h2 {
+    font-size: 35px;
+    margin-bottom: 2vh;
+}
 
-#artigos > section > p {
+#artigos > section > h3 {
+    font-size: 25px;
+    margin-bottom: 2vh;
+}
+
+
+#artigos > section > p, li {
     font-size: 21px;
     letter-spacing: 1px;
     line-height: 25px;
     margin-bottom: 10px;
+}
+
+li {
+    margin-left: 26px;
 }
 
 /* -------------------------------------- */
