@@ -73,7 +73,7 @@
     margin-bottom: 2vh;
 }
 
-#artigos > section > h2 {
+#artigos > section > h2, #art0302p1, #art0302p2 {
     font-size: 35px;
     margin-bottom: 2vh;
 }
@@ -84,7 +84,7 @@
 }
 
 
-#artigos > section > p, li {
+#artigos > section > p, li, #art0302p1, #art0302p2 {
     font-size: 21px;
     letter-spacing: 1px;
     line-height: 25px;
@@ -117,6 +117,37 @@ li {
     position: absolute;
     flex: auto;
     left: 68.8vw;
+}
+
+/* ----------SECTION ARTIGO03-02----------*/
+
+#artigo03-02 > #art0302p1 > h2 { 
+    margin-bottom: 2vh;
+}
+
+#artigo03-02 > #art0302p2 > h2 { 
+    margin-bottom: 2vh;
+}
+
+#artigo03-02 > #art0302p1 > p { 
+    margin-bottom: 10px;
+}
+
+#artigo03-02 > #art0302p2 > p { 
+    margin-bottom: 10px;
+}
+
+
+
+#art0302p1 {
+    width: 45vw;
+    
+}
+
+#art0302p2 {
+    width: 45vw;
+    position: absolute;
+    left: 50vw;
 }
 
 
