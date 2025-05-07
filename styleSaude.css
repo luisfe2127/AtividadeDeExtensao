@@ -63,17 +63,17 @@
     flex: auto;
 }
 
-#artigo01-02, #artigo02-02, #artigo03-02 {
+#artigo01-02, #artigo02-02, #artigo03-02, #artigo04-02 {
     margin: 0 0 5vh 2vw;
     width: 58vw;   
 }
 
-#artigo01-02 > h1, #artigo02-02 > h1, #artigo03-02 > h1 {
+#artigo01-02 > h1, #artigo02-02 > h1, #artigo03-02 > h1, #artigo04-02 > h1 {
     font-size: 65px;
     margin-bottom: 2vh;
 }
 
-#artigo01-02 > h2, #artigo02-02 > h2 , #artigo03-02 > h2 , #art0302p1 > h2 , #art0302p2 > h2 {
+#artigo01-02 > h2, #artigo02-02 > h2 , #artigo03-02 > h2 , #art0302p1 > h2 , #art0302p2 > h2, #artigo04-02 > h2 {
     font-size: 35px;
     margin-bottom: 2vh;
 }
@@ -84,7 +84,7 @@
 }
 
 
-#artigo01-02 >  p, #artigo02-02 >  p, #artigo03-02 >  p, #art0302p1, #art0302p2 >  p, li {
+#artigo01-02 >  p, #artigo02-02 >  p, #artigo03-02 >  p, #art0302p1, #art0302p2 >  p, #artigo04-02 > p, li {
     font-size: 21px;
     letter-spacing: 1px;
     line-height: 25px;
@@ -121,19 +121,11 @@ li {
 
 /* ----------SECTION ARTIGO03-02----------*/
 
-#artigo03-02 > #art0302p1 > h2 { 
+#artigo03-02 > h2 { 
     margin-bottom: 2vh;
 }
 
-#artigo03-02 > #art0302p2 > h2 { 
-    margin-bottom: 2vh;
-}
-
-#artigo03-02 > #art0302p1 > p { 
-    margin-bottom: 10px;
-}
-
-#artigo03-02 > #art0302p2 > p { 
+#artigo03-02 > p { 
     margin-bottom: 10px;
 }
 
@@ -149,11 +141,14 @@ li {
 
 /*---------- SECTION ARTIGO04-03 ----------*/
 
-#artigo04-03 > p {
+#artigo04-02 {
+    width: 97vw;
+}
+
+#artigo04-02 > h1 {
     text-align: center;
 }
 
-
-
-
-
+#introConscientizacao {
+    text-align: center;
+}
