@@ -73,7 +73,7 @@
     margin-bottom: 2vh;
 }
 
-#artigo01-02 > h2, #artigo02-02 > h2 , #artigo03-02 > h2 , #art0302p1 > h2 , #art0302p2 > h2, #artigo04-02 > h2 {
+#artigo01-02 > h2, #artigo02-02 > h2 , #artigo03-02 > h2 , #art0302p1 > h2 , #art0302p2 > h2, #artigo04-02 > section > h2 {
     font-size: 35px;
     margin-bottom: 2vh;
 }
@@ -84,7 +84,7 @@
 }
 
 
-#artigo01-02 >  p, #artigo02-02 >  p, #artigo03-02 >  p, #art0302p1, #art0302p2 >  p, #artigo04-02 > p, li {
+#artigo01-02 >  p, #artigo02-02 >  p, #artigo03-02 >  p, #art0302p1, #art0302p2 >  p, #artigo04-02 > p, #artigo04-02 > section > p, li {
     font-size: 21px;
     letter-spacing: 1px;
     line-height: 25px;
@@ -143,6 +143,7 @@ li {
 
 #artigo04-02 {
     width: 97vw;
+    flex-flow: row wrap;
 }
 
 #artigo04-02 > h1 {
@@ -152,3 +153,18 @@ li {
 #introConscientizacao {
     text-align: center;
 }
+
+#artigo04-02 > section {
+    width: 45vw;
+}
+
+#art0402sub0102, #art0402sub0302 {
+    float: right;
+}
+
+
+
+
+
+
+
