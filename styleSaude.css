@@ -64,6 +64,7 @@
 }
 
 #artigo01-02, #artigo02-02, #artigo03-02, #artigo04-02 {
+    background-color: rgb(227, 224, 224);
     margin: 0 0 5vh 2vw;
     width: 58vw;   
 }
@@ -121,6 +122,10 @@ li {
 
 /* ----------SECTION ARTIGO03-02----------*/
 
+#artigo03-02 {
+    width: 93vw;
+}
+
 #artigo03-02 > h2 { 
     margin-bottom: 2vh;
 }
@@ -143,6 +148,7 @@ li {
 
 #artigo04-02 {
     width: 97vw;
+    height: 123vh;
     flex-flow: row wrap;
 }
 
@@ -158,9 +164,10 @@ li {
     width: 45vw;
 }
 
-#art0402sub0102, #art0402sub0302 {
+#art0402sub0102, #art0402sub0302, #art0402sub0502  {
     float: right;
 }
+
 
 
 
