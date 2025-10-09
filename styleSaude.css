@@ -64,7 +64,7 @@
 }
 
 #artigo01-02, #artigo02-02, #artigo03-02, #artigo04-02 {
-    background-color: rgb(227, 224, 224);
+    /* background-color: rgb(227, 224, 224); */
     margin: 0 0 5vh 2vw;
     width: 58vw;   
 }
@@ -120,7 +120,16 @@ li {
     left: 68.8vw;
 }
 
-/* ----------SECTION ARTIGO03-02----------*/
+/* ----------SECTION ARTIGO01-02---------- */
+
+#artigo01-02 {
+    position: relative;
+    overflow: hidden;
+    
+}
+
+
+/* ----------SECTION ARTIGO03-02---------- */
 
 #artigo03-02 {
     width: 93vw;
