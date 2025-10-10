@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#inicio {
+    background-image: url("imagensecnomiasustentavel/environment-7412966_1280.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 50vh;
+    background-position: center;
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 3vw;
+}
+
+#inicio > h1 {
+    font-size: 100px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#inicio > h2 {
+    font-size: 40px;
+
+}
+
+#navegacao {
+    text-align: center;
+    padding: 1vw;
+    margin-bottom: 10vh;
+}
+
+#navegacao > nav > a {
+    color: black;
+    text-decoration: none;
+    margin-right: 1vw;
+    font-size: 20px;
+}
+
+#navegacao > nav > a:hover {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+#imagensSustentabilidade {
+    text-align: center;
+}
+
+#imagensSustentabilidade > img {
+    margin-right: 3vw;
+}
+
+#imagensSustentabilidade > img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#agua {
+    
+}
