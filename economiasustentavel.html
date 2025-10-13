@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Economia Sutentável</title>
     <link rel="stylesheet" href="styleEconomiaSustentavel.css">
+    <script src="script.js"></script>
 </head>
 <body>
 
@@ -24,11 +25,19 @@
     </nav>
 </section>
 <section id="imagensSustentabilidade">
-    <img src="imagensecnomiasustentavel/agua.png" alt="água" id="agua">
-    <img src="imagensecnomiasustentavel/planta.png" alt="planta" id="planta">
-    <img src="imagensecnomiasustentavel/reutilizar.png" alt="reutilizar" id="reutilizar">
-    <img src="imagensecnomiasustentavel/painelsolar.png" alt="painel solar" id="painelsolar">
+    <img src="imagenseconomiasustentavel/agua.png" alt="água" id="agua" onmouseenter="this.src='imagenseconomiasustentavel/painelsolar.png';">
+    <img src='imagenseconomiasustentavel/planta.png' alt="planta" id="planta" onmouseenter="this.src='imagenseconomiasustentavel/reutilizar.png';">
+    <img src="imagenseconomiasustentavel/reutilizar.png" alt="reutilizar" id="reutilizar">
+    <img src="imagenseconomiasustentavel/painelsolar.png" alt="painel solar" id="painelsolar">
 </section>
+<script>
+    document.getElementById("agua").addEventListener("mouseleave", function() {
+            this.src = "imagenseconomiasustentavel/agua.png";
+        });
     
+        document.getElementById("planta").addEventListener("mouseleave", function() {
+            this.src = "imagenseconomiasustentavel/planta.png";
+        });
+</script> 
 </body>
 </html>
