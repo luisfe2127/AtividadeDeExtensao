@@ -1,10 +1,14 @@
 @charset "UTF-8";
 
+/* GLOBAL */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* SECTION INICIO */
 
 #inicio {
     background-image: url("imagenseconomiasustentavel/environment-7412966_1280.png");
@@ -24,13 +28,15 @@
 
 #inicio > h2 {
     font-size: 40px;
-
 }
+
+/* SECTION NAVEGACAO */
 
 #navegacao {
     text-align: center;
     padding: 1vw;
-    margin-bottom: 10vh;
+    padding-bottom:5vh;
+    background-color: rgb(239, 238, 238);
 }
 
 #navegacao > nav > a {
@@ -48,12 +54,16 @@
     transition: 0.5s;
 }
 
+/* SECTION IMAGENSUSTENTABILIDADE */
+
 #imagensSustentabilidade {
     text-align: center;
 }
 
 #imagensSustentabilidade > img {
     margin-right: 3vw;
+    margin-bottom: 3vh;
+     width: 10vw;
 }
 
 #imagensSustentabilidade > img:hover {
@@ -61,6 +71,39 @@
     transition: 0.5s;
 }
 
-#agua {
-    
+#imagensSustentabilidade{
+    background-image: url("imagenseconomiasustentavel/sustentabilidade-e1632147213254.png");
+}
+
+
+
+/* SECTION INTROPROJETO */
+
+#introProjeto {
+   border: 2px solid black;
+   border-radius: 5px;
+   padding: 0.1vw;
+   box-shadow: 10px 10px 50px grey;
+}
+
+#introProjeto > abbr > a > img {
+    float: left;
+    width: 14.2vw;
+    margin-right: 1vw;
+    margin-left: 0.1vw;
+    border-radius: 5%;
+}
+
+#introProjeto > h1 {
+    font-size: 40px;
+    margin-bottom: 1vh;
+}
+
+#introProjeto > p {
+    font-size: 20px;
+    width: 98%;
+    height: 5.5vh;
+    text-align: justify;
+    margin-bottom: 0.4vh;
+    line-height: 1.5;
 }
