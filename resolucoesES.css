@@ -2,7 +2,7 @@
 
 #container {
     display: grid;
-    grid-column: 16.4vw 4.5vw 12.1vw 14.7vw;
+    grid-template-rows: 100vw 15vw 20vw 81vw;
 }
 
 #inicio {
@@ -15,5 +15,9 @@
 
 #imagensSustentabilidade {
     grid-area: 3 / 1 / 4 / 2;
+}
+
+#introprojeto{
+    grid-area: 4 / 1 / 5/ 2;
 }
 
