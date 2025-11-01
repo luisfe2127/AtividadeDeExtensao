@@ -6,11 +6,11 @@
 }
 
 #inicio {
-    grid-area: 1 / 1 / 2 / 2;
+    grid-template-areas: "box01 box01 box01 box01";
 }
 
 #navegacao {
-    grid-area: 2 / 1 / 3 / 2;
+   
 }
 
 #imagensSustentabilidade {

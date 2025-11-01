@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 100vw; 
+    grid-template-rows: 20% 8vh 20vh ;
+}
+
+#inicio {
+    /* background-color: rgb(0, 255, 255); */
+    background-image: url("imagenseconomiasustentavel/environment-7412966_1280.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    padding: 3vw;
+    text-align: center;
+}
+
+#inicio > h1 {
+    font-size: 5vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+/* .box01 {
+     background-color: rgb(144, 238, 144); 
+} */
+
+#inicio > h2 {
+    font-size: 2vh;
+}
+
+/* .box02 {
+    background-color: lightcoral;
+} */
+
+#navegacao {
+    background-color: rgb(239, 238, 238);
+    text-align: center;
+    padding: 1vw;
+    padding-bottom:5vh;
+}
+
+#navegacao > a {
+   
+    text-decoration: none;
+    margin-right: 1vw;
+    font-size: 2vh;
+}
+
+#navegacao > a:hover {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+#imagensSustentabilidade {
+    text-align: center;
+}
+
+#imagensSustentabilidade > img {
+    margin-right: 3vw;
+    margin-bottom: 3vh;
+     width: 15vh;
+}
+
+/* #imagensSustentabilidade > img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+} */
+
+#imagensSustentabilidade{
+    background-image: url("imagenseconomiasustentavel/sustentabilidade-e1632147213254.png");
+}
+
+.box13
+
+
+
